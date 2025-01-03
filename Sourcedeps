@@ -1,8 +1,0 @@
-grab.o: grab.c grab.h helpers.h parse.h zkg.h types.h
-OBJ += grab.o
-helpers.o: helpers.c helpers.h zkg.h types.h
-OBJ += helpers.o
-parse.o: parse.c helpers.h locales.h parse.h zkg.h types.h
-OBJ += parse.o
-zkg.o: zkg.c grab.h helpers.h parse.h zkg.h types.h
-OBJ += zkg.o
